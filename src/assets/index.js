@@ -23,13 +23,13 @@ import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import nickelfox from "./company/nickelfox.png";
-import newgen from "./company/newgen.png";
-import skillrisers from "./company/skillrisers.png";
-import proximus from "./company/proximus.png";
+import Evold from "./company/Evold.png";
+import freelanceIcon from "./company/freelanceIcon.png";
+import cimaLogo from "./company/cimaLogo.png";
 
-import aptihealthWeb from "./projects/aptihealthWeb.png";
-import aptihealthApp from "./projects/aptihealthApp.png";
+
+import restaurant from "./projects/restaurant.png";
+import nikeshop from "./projects/nikeshop.png";
 import zealWeb from "./projects/zealWeb.png";
 import zealApp from "./projects/zealApp.png";
 import rollWeb from "./projects/rollWeb.png";
@@ -60,12 +60,11 @@ export {
   redux,
   tailwind,
   typescript,
-  nickelfox,
-  newgen,
-  skillrisers,
-  proximus,
-  aptihealthWeb,
-  aptihealthApp,
+  Evold,
+  freelanceIcon,
+  cimaLogo,
+  restaurant,
+  nikeshop,
   zealWeb,
   zealApp,
   rollWeb,

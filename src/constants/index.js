@@ -17,12 +17,11 @@ import {
   java,
   mysql,
   git,
-  nickelfox,
-  newgen,
-  skillrisers,
-  proximus,
-  aptihealthWeb,
-  aptihealthApp,
+  Evold,
+  freelanceIcon,
+  cimaLogo,
+  restaurant,
+  nikeshop,
   zealWeb,
   zealApp,
   rollWeb,
@@ -49,7 +48,7 @@ export const navLinks = [
   },
   {
     id: navigationPaths.contact,
-    title: "Contact",
+    title: "animation",
   },
 ];
 
@@ -133,105 +132,103 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
+    title: "Web Developer",
+    company_name: "Evold",
+    company_website: "https://evold.com", // Replace with the actual website URL
+    icon: Evold, // Replace with the actual logo variable
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Present",
+    date: "06-2022 - 06-2023", // Replace with the actual dates
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborate with both startups and established businesses to develop innovative digital products.",
+      "Act as long-term partners, helping clients gain traction, grow revenue, and reduce costs through tailored solutions.",
+      "Advise on the efficient planning, development, and launching of new software products.",
+      "Assist in tracking, collecting, and transforming analytical data into actionable business insights.",
+      "Translate business goals into clear and actionable product requirements.",
+      "Deliver branding solutions that customers love and remember.",
+      "Design user experiences (UX) that are intuitive and enjoyable, along with beautiful and compelling user interfaces (UI).",
+      "Develop scalable and responsive applications for multiple platforms, including Web, iOS, and Android.",
+      "Utilize cutting-edge technologies to ensure optimal performance and future-proof solutions.",
+      "Scale applications effortlessly to accommodate growth and evolving business needs.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Newgen Software",
-    company_website: "https://newgensoft.com/home-india/",
-    icon: newgen,
+    title: "Freelance Software Developer",
+    company_name: "Self-Employed",
+    company_website: "", // Leave empty or add a personal portfolio/website link
+    icon: freelanceIcon, // Replace with an actual logo/icon variable if available
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
+    date: "06-2023 - 06-2024", // Replace with actual dates or "Ongoing"
+    location: "Remote",
+    employment_type: "Freelancing",
     points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
+      "Developing and delivering custom software solutions tailored to client requirements.",
+      "Collaborating with clients to define project goals, scope, and timelines effectively.",
+      "Building scalable and maintainable web and mobile applications using modern frameworks and technologies.",
+      "Ensuring project delivery within deadlines while maintaining high-quality standards.",
+      "Managing all aspects of freelancing, including client communication, project planning, and technical execution.",
     ],
+    
   },
   {
-    title: "Software Engineer Intern",
-    company_name: "Skillrisers",
-    company_website: "https://www.skillrisers.com/",
-    icon: skillrisers,
+    title: "Technicien Informatique",
+    company_name: "CIMA+",
+    company_website: "https://www.cima.ca/",
+    icon: cimaLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
+    date: "Jan 2024 - Present",
+    location: "Sherbrooke, Québec, Canada",
+    employment_type: "Internship",
     points: [
-      "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
-      "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
-      "Collaborated effectively with the development team, actively participating in code reviews and resolving technical challenges.",
-      "Demonstrated strong problem-solving skills, consistently delivering high-quality code and meeting project deadlines.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Self-employed",
-    company_website: "https://proximus.surge.sh/index.html",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
-    points: [
-      "Spearheaded the development of a fully responsive website for the college coding society.",
-      "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
-      "Organized informative sessions on cutting-edge technologies, including JavaScript and ReactJs.",
-      "Curated and designed challenging coding problems for college competitions.",
+      "Providing technical support and troubleshooting to ensure smooth IT operations.",
+      "Collaborating with team members to resolve hardware and software issues effectively.",
+      "Assisting in the maintenance and optimization of IT systems and networks.",
+      "Gaining hands-on experience with IT infrastructure in an on-site environment.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Aptihealth Web",
-    description:
-      "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
+    name: "Restaurant Website",
+    description: 
+      "Interactive restaurant website with online menu browsing, table reservations, and location details. Features a modern design that showcases the restaurant's atmosphere, special offers, and customer reviews.",
     tags: [
       {
-        name: "reactjs",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "text-orange-500", // HTML's color
       },
       {
-        name: "redux",
-        color: "green-text-gradient",
+        name: "css",
+        color: "text-blue-500",  // CSS's color
       },
       {
-        name: "nodejs",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "text-yellow-500" // JavaScript's color
       },
     ],
-    image: aptihealthWeb,
-    hosted_link: "https://www.aptihealth.com/",
+    image: restaurant,
+    hosted_link: "https://shercoder9.github.io/restaurant/",
   },
   {
-    name: "Aptihealth App",
-    description:
-      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
+    name: "NikeShop E-commerce",
+    description: 
+      "E-commerce platform featuring product catalog, shopping cart functionality, and secure checkout process. Built with React for smooth user experience and real-time inventory updates.",
     tags: [
       {
-        name: "react-native",
-        color: "blue-text-gradient",
+        name: "react",
+        color: "text-cyan-400",  // React's color
       },
       {
-        name: "sendbird",
-        color: "green-text-gradient",
+        name: "tailwind",
+        color: "text-sky-500",   // Tailwind's color
       },
       {
-        name: "twilio",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "text-yellow-500" // JavaScript's color
       },
     ],
-    image: aptihealthApp,
-    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
+    image: nikeshop,
+    hosted_link: "https://shercoder9.github.io/nikeshop/",
   },
   {
     name: "Zeal Web",
@@ -322,33 +319,31 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Shridhar",
+  name: "Anwar",
   fullName: "Shridhar Rai",
-  email: "raishridhar619@gmail.com",
+  email: "shercode9@gmail.com",
   role: "Software Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
-  Node.js etc. I'm a quick learner and collaborate closely with clients to
-  create efficient, scalable, and user-friendly solutions that solve
-  real-world problems. Let's work together to bring your ideas to life!`,
-  projectsIntro: `Following projects showcases my skills and experience through
-  real-world examples of my work. Each project is briefly described with
-  live demos. It reflects my ability to solve complex problems, work
-  with different technologies, and manage projects effectively.`,
+  about: `I'm a skilled software developer with extensive experience in TypeScript and 
+  JavaScript, specializing in frameworks such as React.js, React Native, and Node.js. 
+  I’m a quick learner who thrives on close collaboration with clients to develop efficient, scalable,
+  and user-friendly solutions that address real-world challenges. Let’s work together to turn your ideas into reality!`,
+  projectsIntro: `The following projects highlight my skills and experience through real-world examples of my work. 
+  Each project is briefly described and includes live demos, 
+  showcasing my ability to solve complex problems, work with diverse technologies, and manage projects effectively.`,
 };
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+    "https://drive.google.com/",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "https://www.linkedin.com/in/shridharrai/",
+      link: "https://www.linkedin.com/in/anwar-oukrid-b91ab3286/",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/shridharrai",
+      link: "https://github.com/shercoder9",
       icon: github,
     },
   },

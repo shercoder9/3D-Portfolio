@@ -50,11 +50,10 @@ const Navbar = () => {
             className={`text-secondary text-[18px] font-medium cursor-pointer hover:text-white`}
           >
             <a
-              href={publicUrls.resume}
-              download="Shridhar_Rai_Resume.pdf"
+              href=""
+              download=""
               target="_blank"
             >
-              Resume
             </a>
           </li>
         </ul>
