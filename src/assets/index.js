@@ -30,10 +30,6 @@ import cimaLogo from "./company/cimaLogo.png";
 
 import restaurant from "./projects/restaurant.png";
 import nikeshop from "./projects/nikeshop.png";
-import zealWeb from "./projects/zealWeb.png";
-import zealApp from "./projects/zealApp.png";
-import rollWeb from "./projects/rollWeb.png";
-import rollApp from "./projects/rollApp.png";
 
 export {
   logo,
@@ -65,8 +61,4 @@ export {
   cimaLogo,
   restaurant,
   nikeshop,
-  zealWeb,
-  zealApp,
-  rollWeb,
-  rollApp,
 };
